@@ -1,0 +1,22 @@
+.block-services h3 {
+    padding-left: 50px;
+    position: relative;
+    
+}
+
+.block-services h3:not(.silk){
+    font-size:20px;
+    line-height: 29px;
+    color:#fff;
+}
+
+.block-services h3:before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 25px;
+    height: 6px;
+    border-radius: 20%;
+    top: 12px;
+    left: 0;
+}

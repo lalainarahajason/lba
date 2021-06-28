@@ -1,0 +1,52 @@
+/*--------------------------------------------------
+	Lebostudio Carousel
+---------------------------------------------------*/
+
+
+.content-carousel .slide-title,
+.content-carousel .slide-title h3{ width: 100% !important; color: white; }
+.video-container video {
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    height:100%;
+    z-index: 2;
+}
+
+.swiper-slide .slide-title { z-index: 3; color: white;}
+.swiper-slide .slide-title h3 {padding:0}
+
+.content-carousel .swiper-slide {
+    padding-right:0;
+    margin-right:10vw;
+}
+.content-carousel .swiper-slide h3,
+.content-carousel .swiper-slide small {
+    opacity: 1;
+}
+.content-carousel .swiper-slide h3,
+.content-carousel .swiper-slide small {
+    opacity: 01
+}
+
+.content-carousel .swiper-slide.vertical .image-container {
+    width:auto!important;
+    overflow: visible!important;
+}
+.content-carousel .swiper-slide .carousel-link{ position: absolute; right: 20px; bottom:20px; cursor: pointer; }
+.content-carousel .swiper-slide .carousel-link:hover{ color: red;}
+@media(min-width:1200px){
+    .home #hero-caption { padding: 50px 80px 80px 80px;}
+    .content-carousel .swiper-slide img { max-height:600px }
+    .content-carousel .swiper-slide { width:auto!important}
+    .content-carousel .swiper-slide.vertical .image-container { transform: translateY(-150px); }
+    .content-carousel .swiper-slide.vertical .image-container img { max-height:900px !important }
+    .lebostudio-navigation-wrapper { width: 150px; margin: 0 auto; top: 126px; right: 0; }
+}
+
+
+
+.lebostudio-navigation-wrapper .swiper-button-next,
+.lebostudio-navigation-wrapper .swiper-button-prev { color: black; font-size:2rem; background-image: none; }
+.lebostudio-navigation-wrapper .swiper-button-next:after,
+.lebostudio-navigation-wrapper .swiper-button-prev:after { display:none; }

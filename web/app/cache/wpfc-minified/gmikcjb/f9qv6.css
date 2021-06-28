@@ -1,0 +1,33 @@
+.lebostudio-bloc-intro{
+font-family: "Poppins";
+letter-spacing: -1px;
+}
+.lebostudio-bloc-intro p { line-height: 1.1!important;}
+@media(max-width:1000px){
+.lebostudio-bloc-intro:not(.alignfull) { width: 100% !important; }
+.lebostudio-bloc-intro .bloc-intro-content h3 { font-size : 20px; line-height: 1.5;}
+.lebostudio-bloc-intro .bloc-intro-content p span { font-size:30px !important; line-height: 1.5;}
+.lebostudio-bloc-intro .bloc-intro-content p span:last-child { font-size:18px !important; }
+}
+@media(min-width:1000px){
+.lebostudio-bloc-intro{
+font-size:31px;
+letter-spacing: -1px;
+line-height: 47px;
+}
+.lebostudio-bloc-intro div {
+max-width: 1120px
+}
+.lebostudio-bloc-intro.alignfull {
+padding-top: 6rem !important;
+padding-bottom: 5rem !important;
+}
+.lebostudio-bloc-intro:not(.alignfull) {
+padding: 6rem 5rem !important;
+}
+}
+@media(min-width:1000px) and (max-width:1440px) {
+.lebostudio-bloc-intro {
+margin-left:-15px;
+}
+}
